@@ -3,7 +3,7 @@ pipeline{
     stages {
         stage('Source') {
             steps {
-                git branch: 'develop', url: 'https://github.com/ohmyohmer/cashew'
+                git branch: 'develop', url: 'https://github.com/ohmyohmer/bootcamp/'
             }
         }
     }
